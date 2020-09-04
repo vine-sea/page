@@ -1,0 +1,149 @@
+ 
+    *{margin: 0;
+    padding: 0;
+    }
+
+    body{
+        background-color: rgb(53, 61, 61);
+        filter: grayscale(5%);
+    }
+    .H1{
+        margin-top: -5px;
+        height: 50px;
+        background-color: rgba(88, 80, 92, 0.788);
+        background-image: linear-gradient(rgba(88, 80, 92, 0.788),rgba(213, 199, 219, 0.788));
+        box-shadow:  5px 5px 5px rgb(0, 0, 0);
+
+        /* border: 2px solid red;
+        outline: 2px solid black;
+        outline-offset: 5px; */
+
+        /* resize: both;  nouse*/
+    }
+
+    .B1{
+           
+        margin-top: 110px;
+        height: 50px;
+        background-color: rgba(88, 80, 92, 0.788);
+        box-shadow:  5px 5px 5px rgb(0, 0, 0);
+        background-image: linear-gradient(rgba(213, 199, 219, 0.788),rgba(88, 80, 92, 0.788));
+       
+    }
+
+    
+
+    .con{
+        width:340px;
+        height: 100px;
+        margin: 10px auto;
+        
+    }
+    .con1{
+        width:340px;
+        height: 100px;
+        margin: 10px auto;
+        
+    }
+    .ct{
+        height: 100px;
+        width: 100px;
+        margin-left: 10px;
+        background-color: rgb(19, 74, 105);
+        float: left;
+        box-shadow:  4px 5px 5px rgb(0, 0, 0);
+       
+        animation:mycube 5s infinite;
+         
+    }
+
+    
+
+
+
+    .ct2{
+
+        display: block;
+        height: 80px;
+        width: 80px;
+        margin: 10px;
+        background-color: rgb(67, 104, 104);
+        box-shadow: 0 0 35px rgb(31, 32, 32);
+        /* animation:mycube 5s infinite; */
+         transition: all 2.7s;
+        border-radius: 50%;
+   
+         /* transform: rotate(70deg); */
+    }
+
+    
+
+
+
+
+  .ct2:hover{
+      transform: rotateY(350deg) translateY(5px); /*无分*/
+      filter: opacity(30%) grayscale(100%);
+      border-radius: 45%;
+  }
+
+
+
+        @keyframes mycube{   /*css?*/
+
+            from
+            {background-color: cadetblue;}
+            50%{background-color: rgb(116, 107, 75);}
+            to{background-color: cadetblue;}
+        }
+
+        .page{
+             /* display: inline-block; */
+             float: right;
+             margin: 10px 15px;
+             padding: 0;
+        }
+
+        .page li{
+            display: inline;
+             
+        }
+   
+        .page li a{
+            color: black;
+            background-color: gold;
+            border-radius: 10%;
+            padding: 8px 9px;
+            font-size: 10px;
+            text-decoration: none;
+            /* text-align: center; */
+            transition: background-color .5s;
+            filter: grayscale(60%) opacity(70%);
+        }
+
+        .page li a:hover{
+            background-color:green;
+        }
+
+        .page li a:hover .mu{
+            opacity: 1;
+        }
+
+      
+
+.mu{
+    width: 150px;
+    height: 20px;
+    filter: opacity(30%);
+     position: absolute;
+    top: -50px;
+    left: 50%;
+    margin-left: -75px;
+    opacity: 0;
+    
+    transition: all .7s;
+}
+ 
+ 
+
+ 
