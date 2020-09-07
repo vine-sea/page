@@ -1,27 +1,6 @@
 ***
 
-<style>
-.box{width: 100px;height: 100px;border: 1px solid red;
 
-background-color: green;
-filter: opacity(50%);
-transition: all 1.1s;
-border-radius: 20%;
-margin:0 auto;
-position:fixed;
-top:100px;
-right:100px;
-}
-.box:hover{transform: translateY(7px) translateX(7px) rotate(360deg);
-filter:opacity(70%)
-}
-
-table{margin:0 auto;
-    width: 100px;height: 100px;
-    border:1px solid red;
-}
-
-</style>
 
 
 $$\text{This is LaTex}$$
@@ -93,7 +72,28 @@ e=>end: 结束框
 st(right)->op(right)->cond
 cond(yes)->e
 ```
- 
+ <style>
+.box{width: 100px;height: 100px;border: 1px solid red;
+
+background-color: green;
+filter: opacity(50%);
+transition: all 1.1s;
+border-radius: 20%;
+margin:0 auto;
+position:fixed;
+top:100px;
+right:100px;
+}
+.box:hover{transform: translateY(7px) translateX(7px) rotate(360deg);
+filter:opacity(70%)
+}
+
+table{margin:0 auto;
+    width: 100px;height: 100px;
+    border:1px solid red;
+}
+
+</style>
 <div class="box"></div>
  
  <table></table>
