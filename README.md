@@ -1,7 +1,7 @@
 ***
+ 
 
-
-
+<img src="http://latex.codecogs.com/gif.latex?\sum_{i=1}^n%20(a_i*3)+\frac{\sum_{i=1}^n%20(a_i*3)}{6}">
 
 $$\text{This is LaTex}$$
 $$
