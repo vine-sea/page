@@ -90,12 +90,8 @@ st=>start: 开始
 op=>operation: 处理 
 cond=>condition: 判断 
 e=>end: 结束框
- 
- st(right)->op(right)->cond
- cond(yes)->e
- 
- 
- 
+st(right)->op(right)->cond
+cond(yes)->e
 ```
  
 <div class="box"></div>
