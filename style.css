@@ -13,9 +13,10 @@ background-color: seashell;
 
 
 .L{
-    width: 200px;
+    width: 150px;
     height: 100%;
-    border-radius: 10px;
+    min-height: 700px;
+    border-radius: 5px;
     background-color: rgb(194, 212, 226);
     float: left;
 }
@@ -23,17 +24,17 @@ background-color: seashell;
 .R{
     
    
-    width:calc(100% - 200px); 
-    height: 100px;
+    width:calc(100% - 50px); 
+    min-width: 400px;
+    height: 150px;
     background-color: royalblue;
-    border-radius: 10px;
-    filter: opacity(90%);
+    border-radius: 5px;
 
-    float: right;
-     
-    /* position: fixed;
-    top: 0;
-    left: 300px; */
+    filter: opacity(90%);
+   position: absolute;
+   left: 150px;
+   top: 0;
+ 
 }
 
 .Ri{
@@ -51,11 +52,11 @@ background-color: seashell;
 
 }
 
-    .Ri p{
-        text-align: center;
-        margin-top: 50%;
-        
-    }
+.Ri p{
+    text-align: center;
+    margin-top: 50%;
+    
+}
 
 .Ri:hover{
    box-shadow:0 3px 1px green;
@@ -63,11 +64,11 @@ background-color: seashell;
 
 .Rip{
      
-
+    width: 300px;
     position: absolute;
     left: 50%;
     top: 50px;
-    margin-left: -140px;
+    margin-left: -150px;
   
    
 }
