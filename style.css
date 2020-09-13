@@ -21,6 +21,24 @@ html,body{
     box-shadow: 1px 0 10px #2f3542;
      
 }
+.L ul{
+ position: absolute;
+ margin-top: 25px;
+ margin-left: 25px;
+ list-style: none;
+    transition: all .2s;
+}
+ 
+.L ul li div{
+    width: 100px;
+    height: 70px;
+    background-color:#ffbe76;
+    transition: all .3s;
+}
+
+.L ul li div:hover{
+    background-color:#6ab04c;
+}
 
 .R{
     
@@ -71,11 +89,12 @@ html,body{
      position: absolute;
      left:50%;margin-top: -70px;
      margin-left: -275px;
+     list-style: none;
       z-index: 1;
 }
 .R ul li{
     margin-bottom: 10px;
-    list-style: none;
+   
 }
 
 .R ul li div{
