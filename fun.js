@@ -5,7 +5,7 @@ var c=document.getElementsByClassName('L')
 var c2=document.getElementsByClassName('S')
 var c3=document.getElementsByClassName('T')
     if(params.scrollY>50){
-        log('here')
+        // log('here')
         
     // c[0].style.visibility='hidden'
     // c[0].style.height= scrollY+30+'px'
