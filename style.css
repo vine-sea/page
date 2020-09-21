@@ -4,30 +4,87 @@
     padding: 0;
 }
 
-html,body{
-    min-width: 700px;
-    min-height: 1400px;
-    
-  
+body{
+    min-width: 1300px;
+    min-height: 3000px;
+    height: 4000px;
+    background-color: rgb(210, 224, 220);
 }
- .up ,.dw{
-     width: 100%;
-     height: 100px;
-     background-color: cadetblue;
- }
 
-.up div{
-    width: 300px;
+
+.he{
+    width: 100%;
+    height:  calc(100% - 0px);;
+     
+}
+
+.baner{
+    width: 100%;
+    height: 250px;
+    background-color: rgba(50, 125, 187, 0.904);
+    border-radius: 5px;
+    /* position: fixed;
+    top: 0; */
+}
+.do{
+    width: 100%;
+    height: 250px;
+    background-color: rgb(103, 163, 212);
+    
+}
+
+.lef{
+    width: 200px;
     height: 100%;
+    background-color: rgb(210, 221, 217);
+    float: left;
+    
+}
+
+.lef ul{
+    position: fixed;
+    top: 70px;
+    left: 25px;
+}
+
+.lef ul li{
+    list-style: none;
+    margin: 0 auto;
+    width: 150px;
+    height: 70px;
+     transition: all .2s;
+     border-radius: 5px;
+}
+
+.lef ul li:hover{
+    background-color: rgb(16, 94, 16);
+}
+
+
+.rig{
+    width: calc(100% - 200px);
+    height: 100%;
+    background-color: rgb(194, 212, 212);
     float: left;
 }
-.up .Ri{
-    float: right;
-     width: calc(100% -300px);
-    background-color: cyan;
+.boy{
+    width: 100%;
+    height: calc(100% - 500px);
+   filter: opacity(100%);
+     
 }
 
- .up{
-     height: 2100px;
-     background-color: cornsilk;
- }
+.show{
+    width: 700px;
+    /* height: 3000px; */
+    height: calc(100% + 150px);
+    /* border: 1px solid black; */
+    background-color: rgb(223, 236, 233);
+    border-radius: 5px;
+
+    position: relative;
+    left: 50%;
+    margin-left: -350px;
+    top: -100px;
+   
+}
